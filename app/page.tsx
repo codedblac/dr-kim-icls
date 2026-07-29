@@ -45,11 +45,11 @@ export default async function HomePage() {
                 <SectionEyebrow>Secondary Social Studies Consulting</SectionEyebrow>
                 
                 <h1 className="font-serif font-bold text-white text-4xl sm:text-5xl lg:text-5xl xl:text-6xl leading-[1.1] tracking-[-0.02em] text-balance">
-                  Empowering Social Studies Educators to Bridge the Literacy Gap.
+                  Your teachers already know the content. Let&rsquo;s teach them to teach it differently.
                 </h1>
                 
                 <p className="font-sans text-[#F4F6F9]/85 text-base sm:text-lg leading-relaxed">
-                  Specialized, job-embedded professional development that integrates content and literacy for contextual understanding and sustained success.
+                  Dr. Kimberly Nicole Miles partners with K&ndash;12 districts and curriculum leaders to bring disciplinary literacy directly into secondary Social Studies classrooms &mdash; without adding to your teachers&rsquo; load or losing a single week on the pacing guide.
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-3 mt-2">
@@ -63,7 +63,7 @@ export default async function HomePage() {
                     href="/articles"
                     className="border border-white/40 text-white font-sans font-semibold text-sm px-7 py-3.5 rounded-sm hover:border-white hover:bg-white/10 transition-all duration-200 text-center active:scale-95"
                   >
-                    Download the Free Rigor Guide
+                    Download The Contextual Shift &mdash; Free Guide
                   </Link>
                 </div>
                 
