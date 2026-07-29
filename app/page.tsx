@@ -89,7 +89,7 @@ export default async function HomePage() {
             <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#0A1628]/30 to-[#0A1628]/60 pointer-events-none transition-opacity duration-700" />
 
             {/* Overlay Quote Content */}
-            <div className="relative flex flex-col items-end justify-center h-full px-8 lg:px-12 py-12 lg:py-24 z-20">
+            {/* <div className="relative flex flex-col items-end justify-center h-full px-8 lg:px-12 py-12 lg:py-24 z-20">
               <div className="max-w-md">
                 <blockquote className="font-serif text-2xl lg:text-3xl text-white italic leading-snug tracking-[-0.01em] mb-6">
                   &ldquo;Literacy instruction shouldn&rsquo;t be an addition to your history content. It is the vehicle for it.&rdquo;
@@ -98,7 +98,7 @@ export default async function HomePage() {
                   &mdash; Dr. Kimberly Miles, Ed.D.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
