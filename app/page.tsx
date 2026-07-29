@@ -42,7 +42,7 @@ export default async function HomePage() {
           <div className="flex items-center px-6 sm:px-8 md:px-10 lg:px-12 py-20 lg:py-24 overflow-y-auto lg:overflow-y-visible">
             <div className="w-full max-w-xl mx-auto lg:mx-0">
               <div className="flex flex-col gap-6">
-                <SectionEyebrow>Secondary Social Studies Consulting</SectionEyebrow>
+                {/* <SectionEyebrow>Secondary Social Studies Consulting</SectionEyebrow> */}
                 
                 <h1 className="font-serif font-bold text-white text-4xl sm:text-5xl lg:text-5xl xl:text-6xl leading-[1.1] tracking-[-0.02em] text-balance">
                   Your teachers already know the content. Let&rsquo;s teach them to teach it differently.
@@ -54,22 +54,22 @@ export default async function HomePage() {
                 
                 <div className="flex flex-col sm:flex-row gap-3 mt-2">
                   <Link
-                    href="/contact"
+                    href="/services"
                     className="bg-[#C9963A] text-white font-sans font-semibold text-sm px-7 py-3.5 rounded-sm hover:bg-[#F0C97A] hover:text-[#0A1628] transition-all duration-200 text-center active:scale-95"
                   >
-                    Book a Strategy Audit
+                    Learn More &rarr;
                   </Link>
                   <Link
                     href="/articles"
                     className="border border-white/40 text-white font-sans font-semibold text-sm px-7 py-3.5 rounded-sm hover:border-white hover:bg-white/10 transition-all duration-200 text-center active:scale-95"
                   >
-                    Download The Contextual Shift &mdash; Free Guide
+                    Download The Contextual Shift 
                   </Link>
                 </div>
                 
-                <p className="font-sans text-xs text-white/50 tracking-wide pt-4">
+                {/* <p className="font-sans text-xs text-white/50 tracking-wide pt-4">
                   Serving K-12 school districts, curriculum directors &amp; Social Studies department heads
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -106,14 +106,14 @@ export default async function HomePage() {
        {/* SECTION 2: THE REAL TENSION */}
       <section className="bg-white py-20 px-6 lg:px-8" aria-label="The Real Tension">
         <div className="max-w-3xl mx-auto text-center mb-10">
-          <SectionEyebrow className="mb-3">The Real Tension</SectionEyebrow>
+          {/* <SectionEyebrow className="mb-3">The Real Tension</SectionEyebrow> */}
           <h2 className="font-serif font-bold text-[#0A1628] text-3xl sm:text-4xl tracking-[-0.02em] text-balance">
             The mandate landed. The pacing guide didn&rsquo;t move.
           </h2>
         </div>
-        <div className="max-w-2xl mx-auto mb-12">
+        {/* <div className="max-w-2xl mx-auto mb-12">
           <HomeCarousel />
-        </div>
+        </div> */}
         <div className="max-w-[720px] mx-auto text-center flex flex-col gap-6">
           <p className="font-sans text-base text-[#4A5568] leading-relaxed">
             You&rsquo;ve been handed a district-wide literacy initiative. Your Social Studies teachers have a curriculum map that waits for no one. And somewhere in the middle, students are being asked to read like historians without ever being taught how.
@@ -131,29 +131,19 @@ export default async function HomePage() {
       <section className="bg-[#F4F6F9] py-20 px-6 lg:px-8" aria-label="The Distinction That Matters">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
-            <SectionEyebrow className="mb-2">The Distinction That Matters</SectionEyebrow>
+            {/* <SectionEyebrow className="mb-2">The Distinction That Matters</SectionEyebrow> */}
             <h2 className="font-serif font-bold text-[#0A1628] text-2xl sm:text-3xl tracking-[-0.02em] mb-4">
               There&rsquo;s a difference. Most PD doesn&rsquo;t know it.
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-            <div className="bg-white rounded-sm border-l-4 border-[#C9963A] p-7 shadow-[0_1px_4px_rgba(0,0,0,0.08)]">
-              <h3 className="font-serif font-bold text-[#0A1628] text-xl tracking-[-0.02em] mb-3">
-                Adolescent Literacy
-              </h3>
-              <p className="font-sans text-sm text-[#4A5568] leading-relaxed">
-                Most literacy professional development teaches adolescent literacy &mdash; foundational strategies for accessing complex text.
-              </p>
-            </div>
-            <div className="bg-white rounded-sm border-l-4 border-[#0A1628] p-7 shadow-[0_1px_4px_rgba(0,0,0,0.08)]">
-              <h3 className="font-serif font-bold text-[#0A1628] text-xl tracking-[-0.02em] mb-3">
-                Disciplinary Literacy
-              </h3>
-              <p className="font-sans text-sm text-[#4A5568] leading-relaxed">
-                Dr. Miles teaches disciplinary literacy &mdash; the specialized practice of reading, writing, and thinking like a historian.
-              </p>
-            </div>
-          </div>
+          <div className="max-w-3xl mx-auto mb-12 border-l-4 border-[#C9963A] pl-6 md:pl-8 py-2">
+  <p className="font-sans text-[#4A5568] text-base leading-relaxed mb-3">
+    Most literacy professional development teaches adolescent literacy — foundational strategies for accessing complex text.
+  </p>
+  <p className="font-serif text-[#0A1628] text-xl md:text-2xl font-bold leading-snug">
+    Dr. Miles teaches disciplinary literacy — the specialized practice of reading, writing, and thinking like a historian.
+  </p>
+</div>
           <div className="bg-white rounded-sm p-8 border border-[#E2E8F0] shadow-sm max-w-3xl mx-auto text-center flex flex-col gap-4">
             <p className="font-sans text-sm text-[#4A5568] leading-relaxed">
               That distinction changes everything. A student who can identify the main idea of a passage is not the same as a student who can source a primary document, contextualize an era, and corroborate competing accounts.
@@ -173,7 +163,7 @@ export default async function HomePage() {
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8 items-center">
             <div className="md:col-span-2">
-              <SectionEyebrow className="mb-3">The Approach</SectionEyebrow>
+              {/* <SectionEyebrow className="mb-3">The Approach</SectionEyebrow> */}
               <h2 className="font-serif font-bold text-[#0A1628] text-3xl sm:text-4xl tracking-[-0.02em] leading-tight">
                 We go where the work actually happens.
               </h2>

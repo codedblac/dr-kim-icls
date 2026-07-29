@@ -1,0 +1,101 @@
+<div className="flex flex-col md:flex-row rounded-lg overflow-hidden shadow-lg mb-12 border border-gray-100">
+  {/* Standard Approach */}
+  <div className="bg-gray-50 p-8 md:w-1/2 flex flex-col justify-center">
+    <span className="text-gray-400 font-bold text-xs uppercase tracking-widest mb-2">
+      The Standard Approach
+    </span>
+    <h3 className="font-serif text-2xl text-gray-400 mb-3 line-through decoration-[#C9963A]/30">
+      Adolescent Literacy
+    </h3>
+    <p className="font-sans text-gray-500 leading-relaxed text-sm">
+      Most literacy professional development teaches adolescent literacy — foundational strategies for accessing complex text.
+    </p>
+  </div>
+  
+  {/* Dr. Miles Approach */}
+  <div className="bg-[#0A1628] p-8 md:w-1/2 flex flex-col justify-center relative">
+    {/* Optional little overlap accent */}
+    <div className="hidden md:block absolute -left-4 w-8 h-8 bg-[#0A1628] rotate-45 rounded-sm"></div>
+    
+    <span className="text-[#C9963A] font-bold text-xs uppercase tracking-widest mb-2">
+      The Dr. Miles Difference
+    </span>
+    <h3 className="font-serif text-2xl text-white mb-3">
+      Disciplinary Literacy
+    </h3>
+    <p className="font-sans text-gray-300 leading-relaxed text-sm">
+      Dr. Miles teaches disciplinary literacy — the specialized practice of reading, writing, and thinking like a historian.
+    </p>
+  </div>
+</div>
+
+
+
+
+<div className="relative flex flex-col md:flex-row items-stretch justify-between mb-12 max-w-4xl mx-auto py-8">
+  {/* Left Side */}
+  <div className="flex-1 md:pr-16 md:text-right pb-8 md:pb-0">
+    <h3 className="font-serif text-[#4A5568] text-2xl mb-3">
+      Adolescent Literacy
+    </h3>
+    <p className="font-sans text-[#4A5568] leading-relaxed text-sm">
+      Most literacy professional development teaches adolescent literacy — foundational strategies for accessing complex text.
+    </p>
+  </div>
+
+  {/* Divider and Badge */}
+  <div className="absolute left-1/2 top-0 bottom-0 -translate-x-1/2 hidden md:flex flex-col items-center justify-center">
+    <div className="w-px h-full bg-gray-200"></div>
+    <div className="absolute w-10 h-10 rounded-full bg-white border border-gray-200 shadow-sm flex items-center justify-center text-gray-400 text-xs italic font-serif z-10">
+      vs
+    </div>
+  </div>
+
+  {/* Mobile Divider */}
+  <div className="flex md:hidden items-center justify-center py-4">
+    <div className="h-px w-full bg-gray-200"></div>
+    <span className="px-4 text-gray-400 text-xs italic font-serif bg-white">vs</span>
+    <div className="h-px w-full bg-gray-200"></div>
+  </div>
+
+  {/* Right Side */}
+  <div className="flex-1 md:pl-16">
+    <h3 className="font-serif text-[#0A1628] font-bold text-2xl mb-3">
+      Disciplinary Literacy
+    </h3>
+    <p className="font-sans text-[#0A1628] font-medium leading-relaxed text-sm">
+      Dr. Miles teaches disciplinary literacy — the specialized practice of reading, writing, and thinking like a historian.
+    </p>
+  </div>
+</div>
+
+<div className="max-w-2xl mx-auto mb-12 space-y-6">
+  {/* Block 1: Basic */}
+  <div className="flex items-start gap-5 p-6 rounded-lg border border-gray-100 bg-gray-50/50">
+    <div className="shrink-0 w-12 h-12 rounded-full border border-gray-200 bg-white flex items-center justify-center">
+      <span className="text-gray-400 text-xl block leading-none pb-1">×</span>
+    </div>
+    <div>
+      <h3 className="font-serif text-lg text-gray-500 mb-2">Adolescent Literacy</h3>
+      <p className="font-sans text-sm text-gray-500 leading-relaxed">
+        Most literacy professional development teaches adolescent literacy — foundational strategies for accessing complex text.
+      </p>
+    </div>
+  </div>
+
+  {/* Block 2: Specialized */}
+  {/* <div className="flex items-start gap-5 p-6 rounded-lg border border-[#0A1628]/10 bg-white shadow-[0_4px_20px_rgba(10,22,40,0.06)] relative overflow-hidden">
+    {/* Decorative background accent */}
+    <div className="absolute top-0 right-0 w-32 h-32 bg-[#C9963A]/10 rounded-full blur-2xl -mr-10 -mt-10"></div>
+    
+    <div className="shrink-0 w-12 h-12 rounded-full bg-[#0A1628] flex items-center justify-center shadow-md relative z-10">
+      <span className="text-[#C9963A] text-xl block leading-none pb-1">✓</span>
+    </div>
+    <div className="relative z-10">
+      <h3 className="font-serif text-[#0A1628] font-bold text-xl mb-2">Disciplinary Literacy</h3>
+      <p className="font-sans text-sm text-[#0A1628] leading-relaxed">
+        Dr. Miles teaches disciplinary literacy — the specialized practice of reading, writing, and thinking like a historian.
+      </p>
+    </div>
+  </div>
+</div> */}
