@@ -327,22 +327,61 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* SECTION 6: LEAD CAPTURE */}
-      <section className="bg-white py-20 px-6 lg:px-8 border-t border-[#E2E8F0]" aria-label="Lead capture blueprint download">
-        <div className="max-w-2xl mx-auto text-center">
-          <SectionEyebrow className="mb-3">Free Resource</SectionEyebrow>
-          <h3 className="font-serif font-bold text-[#0A1628] text-2xl sm:text-3xl tracking-[-0.02em] mb-4 text-balance">
-            Stop choosing between the curriculum map and the literacy mandate.
-          </h3>
-          <p className="font-sans text-sm text-[#4A5568] leading-relaxed mb-6">
-            There&rsquo;s a better path. Download the free guide Dr. Miles wrote for secondary instructional leaders who are done making that impossible trade-off.
-          </p>
-          <p className="font-sans text-base font-semibold text-[#0A1628] mb-8">
-            The Contextual Shift: 5 Ways to Integrate Literacy Without Losing Content Pacing
-          </p>
-          <EmailSubscribeForm />
-        </div>
-      </section>
+      
+{/* SECTION 6: FREE GUIDE DOWNLOAD */}
+<section
+  className="bg-white py-20 px-6 lg:px-8 border-t border-[#E2E8F0]"
+  aria-label="Free guide download"
+>
+  <div className="max-w-2xl mx-auto text-center">
+    <SectionEyebrow className="mb-3">
+      Free Resource
+    </SectionEyebrow>
+
+    <h3 className="font-serif font-bold text-[#0A1628] text-2xl sm:text-3xl tracking-[-0.02em] mb-4 text-balance">
+      Stop choosing between the curriculum map and the literacy mandate.
+    </h3>
+
+    <p className="font-sans text-sm text-[#4A5568] leading-relaxed mb-6">
+      There&rsquo;s a better path. Download the free guide Dr. Miles wrote
+      for secondary instructional leaders who are done making that impossible
+      trade-off.
+    </p>
+
+    <p className="font-sans text-base font-semibold text-[#0A1628] mb-8">
+      The Contextual Shift: 5 Ways to Integrate Literacy Without Losing
+      Content Pacing
+    </p>
+
+    <a
+      href="/contextual-shift-guide.pdf"
+      download
+      className="inline-flex items-center justify-center gap-2 rounded-full bg-[#0A1628] px-7 py-3.5 font-sans text-sm font-semibold text-white transition-all duration-200 hover:bg-[#122244] hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#C9963A] focus:ring-offset-2"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        className="h-5 w-5"
+        aria-hidden="true"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"
+        />
+      </svg>
+
+      Download the Free Guide
+    </a>
+
+    
+  </div>
+</section>
+
+
 
       {/* SECTION 7: FINAL CTA */}
       <section className="bg-[#0A1628] py-20 px-6 lg:px-8 text-center" aria-label="Final call to action">

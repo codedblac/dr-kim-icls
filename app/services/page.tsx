@@ -21,7 +21,7 @@ const consultingTiers = [
   },
   {
     tag: 'Coaching',
-    badge: 'PREMIER MODEL',
+    // badge: 'PREMIER MODEL',
     title: 'Collaborative Coaching Cohorts',
     bestFor: 'Departments committed to transforming text instruction into long-term student achievement.',
     desc: 'Our premier delivery model. We embed directly into your school building, joining teachers during their regular collaborative planning times. Together, we analyze student data, co-design rigorous lesson plans, model strategies in real classrooms, and provide immediate feedback. This ensures teachers feel deeply seen, heard, and understood.',
@@ -141,11 +141,11 @@ export default function ServicesPage() {
                   <span className="font-sans text-[10px] font-semibold tracking-[0.12em] uppercase text-[#C9963A]">
                     {tier.tag}
                   </span>
-                  {tier.badge && (
+                  {/* {tier.badge && (
                     <span className="font-sans text-[9px] font-bold tracking-wide uppercase bg-[#C9963A] text-white px-2.5 py-1 rounded-sm">
                       {tier.badge}
                     </span>
-                  )}
+                  )} */}
                 </div>
                 <h3 className="font-serif font-bold text-[#0A1628] text-2xl tracking-[-0.02em]">
                   {tier.title}
